@@ -330,6 +330,7 @@ public class LandscapeGUI extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel5.setText("Diaz Santiago Landscaping");
 
+        customer_list.setFont(new java.awt.Font("Noto Sans", 0, 12)); // NOI18N
         customer_list.setModel(customerList);
         customer_list.setNextFocusableComponent(load_btn);
         customer_list.addListSelectionListener(new javax.swing.event.ListSelectionListener() {
@@ -341,7 +342,7 @@ public class LandscapeGUI extends javax.swing.JFrame {
 
         customer_details.setEditable(false);
         customer_details.setColumns(20);
-        customer_details.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        customer_details.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         customer_details.setRows(5);
         customer_details.setFocusable(false);
         jScrollPane4.setViewportView(customer_details);
